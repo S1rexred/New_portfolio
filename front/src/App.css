@@ -388,6 +388,7 @@ text-decoration: underline 3px solid #fff;
     height: 160px;
     flex-shrink: 0;
   padding: 20px;
+  z-index: 5;
 }
 @media (max-width:1250px) {
   .top-left-third-card{
@@ -557,5 +558,15 @@ text-decoration: underline 3px solid #fff;
   } 
   .process-card-descr{
     font-size: 19px;
+  }
+}
+.d3_model{
+  top: 200px;
+  height: 450px !important;
+  right: 20%;
+}
+@media (max-width:1200px) {
+  .d3_model{
+    display: none;
   }
 }

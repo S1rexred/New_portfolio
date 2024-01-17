@@ -13,13 +13,13 @@ const Main = () => {
 	useGSAP(() => {
 	  // gsap code here...
 	  gsap.to(".about-sq", {x: 0,y:-900,
-		duration: 2,
+		duration: 0.6,
 		onComplete: () => {
             // Reverse animation to the initial position
             gsap.to(".about-sq", {
                 x: 0,
                 y: 0,
-                duration: 0.7,
+                duration: 0.3,
             });
         },}); // <-- automatically reverted
 		
