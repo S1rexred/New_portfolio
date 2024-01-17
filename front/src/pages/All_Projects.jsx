@@ -11,7 +11,7 @@ const All_Projects = () => {
 		try {
 		  
 		  const { data } = await axios.get(
-			  `https://michaelshpilevsky.pythonanywhere.com/`,
+			  `https://michaelshpilevsky.pythonanywhere.com`,
 			  {
 				headers: {
 				  'Content-Type': 'application/json',
