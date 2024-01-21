@@ -144,7 +144,7 @@ line-height: normal;
 .top-left-third-card{
   border-radius: 10px;
   border: 1px solid #FFF;
-  background: #1B0106;
+  background: #B6B6B6;
   box-shadow: 0px 0px 65px 25px rgba(255, 255, 255, 0.25);
   width: 534px;
   height: 400px;
@@ -156,11 +156,19 @@ line-height: normal;
   flex-shrink: 0;
   border-radius: 10px;
   border: 1px solid #FFF;
-  background: #02161F;
+  background: #B6B6B6;
   box-shadow: 0px 0px 65.2px 18px rgba(0, 163, 255, 0.25);
 }
+.third-bottom,
+.top-left-third-card{
+  transition: all .4s;
+  background: linear-gradient(115deg, #FDC28B 2.11%, rgba(234, 228, 80, 0.00) 161.88%);
+  color: #000;
+}
+.third-bottom:hover,
+.top-left-third-card:hover{
 
-
+}
 .third-title{
   color: #6EA094;
   font-family: 'Jost',sans-serif;

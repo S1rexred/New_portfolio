@@ -9,7 +9,7 @@ const Page_detail = () => {
       try {
         
 		const { data } = await axios.get(
-			`https://michaelshpilevsky.pythonanywhere.com/${id}`,
+			`http://127.0.0.1:8000/${id}`,
 			{
 			  headers: {
 				'Content-Type': 'application/json',
