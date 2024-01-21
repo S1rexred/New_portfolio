@@ -162,12 +162,12 @@ line-height: normal;
 .third-bottom,
 .top-left-third-card{
   transition: all .4s;
-  background: linear-gradient(115deg, #FDC28B 2.11%, rgba(234, 228, 80, 0.00) 161.88%);
+ 
   color: #000;
 }
 .third-bottom:hover,
 .top-left-third-card:hover{
-
+  background: linear-gradient(115deg, #FDC28B 2.11%, rgba(234, 228, 80, 0.00) 161.88%);
 }
 .third-title{
   color: #6EA094;
