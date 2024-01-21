@@ -242,10 +242,12 @@ line-height: normal;
   font-weight: 700;
   font-family: 'Jost',sans-serif;
   font-size: 30px;
-  text-decoration: underline 3px solid blue;
+  
   margin-top: 10px;
 }
-
+.see-all-link:hover{
+  text-decoration: underline 3px solid blue;
+}
 .all-cards-wrapper{
   display: flex;
   flex-wrap: wrap;
