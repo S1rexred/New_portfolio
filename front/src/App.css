@@ -167,7 +167,8 @@ line-height: normal;
 }
 .third-bottom:hover,
 .top-left-third-card:hover{
-  background: linear-gradient(115deg, #FDC28B 2.11%, rgba(234, 228, 80, 0.00) 161.88%);
+ 
+  background: linear-gradient(330deg, #fff59a66 20%, #ff6d6d66 100%);
 }
 .third-title{
   color: #6EA094;
