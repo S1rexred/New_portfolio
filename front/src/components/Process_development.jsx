@@ -3,7 +3,7 @@ import React from 'react'
 const Process_development = () => {
   return (
 	<section className="second">
-		<div className="process_title">Process of development</div>
+		<div className="process_title mainer">Process of development</div>
 
 		<div className="container">
 
