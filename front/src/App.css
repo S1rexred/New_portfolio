@@ -157,7 +157,7 @@ line-height: normal;
   border-radius: 10px;
   border: 1px solid #FFF;
   background: #F0F2F4;
-  box-shadow: 0px 0px 65.2px 18px rgba(0, 163, 255, 0.25);
+  
 }
 .third-bottom,
 .top-left-third-card{
@@ -167,7 +167,7 @@ line-height: normal;
 }
 .third-bottom:hover,
 .top-left-third-card:hover{
- 
+  box-shadow: 0px 0px 65.2px 10px rgba(0, 163, 255, 0.25);
   background: linear-gradient(330deg, #fff59a66 20%, #ff6d6d66 100%);
 }
 .third-title{
