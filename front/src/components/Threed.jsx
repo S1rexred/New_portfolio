@@ -10,7 +10,7 @@ const ThreeDModel = () => {
 
   const handleCreated = ({ gl, camera, scene }) => {
     // Add OrbitControls
-    
+    const controls = new OrbitControls(camera,gl.domElement);
     controls.enableDamping = true;
     controls.dampingFactor =0.25;
     controls.screenSpacePanning = false;
