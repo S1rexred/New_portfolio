@@ -12,7 +12,7 @@ const ThreeDModel = () => {
     // Add OrbitControls
     
     controls.enableDamping = true;
-    controls.dampingFactor =const controls = new OrbitControls(camera, gl.domElement); 0.25;
+    controls.dampingFactor =0.25;
     controls.screenSpacePanning = false;
     controls.maxPolarAngle = Math.PI / 2;
     controlsRef.current = controls;
